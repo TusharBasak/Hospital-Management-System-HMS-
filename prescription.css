@@ -1,0 +1,136 @@
+
+.supercontainer{
+    position: relative;
+    top: 20px;
+}
+
+.subcontainer4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.search {
+    border: 3px solid red;
+    border-radius: 12px;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 220px;
+   
+      
+  }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subcontainer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.subcontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subcontainer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn{
+    background-color: #052d2f;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .btn:hover{
+    opacity: 0.7;
+    
+  }
+
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+
+  input[type=submit], input[type=reset] {
+    background-color: #1bb17a;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+  }
+
+  button[type=submit]:hover, button[type=reset]:hover {
+       opacity: 0.7;
+    
+  }
+
+  input[type=number] {
+    /* width: 100%;
+    padding: 6px 8px;
+    margin: 2px 0;
+    box-sizing: border-box; */
+    border: 2px solid red;
+    border-radius: 15px;
+  }
+
+  input[type=number]:focus{
+    background-color: lightblue;
+    border: 3px solid #555;
+
+  }
+.textareaid{
+    width: 250px;
+  height: 80px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 7px solid red;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  }
+
+ 
+
+
+.textareaid:focus{
+  background-color: lightblue;
+border: 7px solid #555;
+}
+
+.text{
+    color: red;
+}
+
+
